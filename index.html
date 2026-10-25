@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#f4b4c4" />
+  <meta name="description" content="Қанағат пен Мөлдірдің үйлену тойына арналған шақыру." />
+  <title>Қанағат & Мөлдір — Үйлену тойы</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&family=Parisienne&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <audio id="weddingMusic" src="assets/wedding-instrumental.mp3" loop preload="metadata"></audio>
+  <div class="petal-rain" aria-hidden="true"></div>
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-noise"></div>
+      <div class="hero-flower flower-left" aria-hidden="true">✦</div>
+      <div class="hero-flower flower-right" aria-hidden="true">❋</div>
+      <div class="hero-topline"><span>ШАҚЫРУ</span><span>28 · 11 · 2026</span></div>
+      <div class="hero-content">
+        <p class="eyebrow">БІЗДІҢ БАҚЫТТЫ КҮНІМІЗ</p>
+        <div class="monogram">Қ <i>&</i> М</div>
+        <p class="hero-date">28 қараша 2026</p>
+        <h1>Қанағат<br /><span>және</span><br />Мөлдір</h1>
+        <div class="hero-seal"><span>EDEN HALL</span><i>♥</i><span>ҚЫЗЫЛОРДА</span></div>
+        <div class="scroll-cue"><span></span>төмен сырғытыңыз</div>
+      </div>
+      <button class="music-toggle" id="musicToggle" type="button" aria-label="Музыканы қосу">♫ <span>МУЗЫКА</span></button>
+    </section>
+
+    <section class="intro section-pad">
+      <p class="section-kicker">ҚҰРМЕТТІ ҚОНАҚТАР!</p>
+      <h2>Сіздерді қуанышымызға<br /><em>ортақ болуға</em> шақырамыз</h2>
+      <div class="intro-photo"><img src="assets/floral-detail.webp" alt="Ақ гүлдер композициясы" /></div>
+      <p class="body-copy">Екі жүректің бір арнада тоғысқан ерекше күнінде жанымызға жақын жандардың бірге болғанын қалаймыз. Қанағат пен Мөлдірдің үйлену тойына арналған ақ дастарханымыздың қадірлі қонағы болыңыздар!</p>
+      <div class="host-note"><span class="line"></span><p>Той иесі<br /><strong>Роза және Қазбек әулеті</strong></p><span class="line"></span></div>
+    </section>
+
+    <section class="countdown-section section-pad" aria-label="Тойға дейінгі кері санақ">
+      <p class="section-kicker">КҮТУДЕГІ ЕҢ БАҚЫТТЫ КҮН</p>
+      <h2>Тойымызға дейін<br /><em>қалған уақыт</em></h2>
+      <div class="countdown" id="countdown" data-target="2026-11-28T17:00:00+05:00">
+        <div><strong id="days">—</strong><span>күн</span></div>
+        <div><strong id="hours">—</strong><span>сағат</span></div>
+        <div><strong id="minutes">—</strong><span>минут</span></div>
+        <div><strong id="seconds">—</strong><span>секунд</span></div>
+      </div>
+      <p class="countdown-note">28 қараша 2026 · Беташар 17:00</p>
+    </section>
+
+    <section class="date-section section-pad" id="date">
+      <p class="section-kicker">ТОЙ КҮНІ</p>
+      <h2>Күнтізбеңізге<br /><em>белгілеп қойыңыз</em></h2>
+      <div class="calendar-card">
+        <div class="calendar-head"><span>ҚАРАША</span><strong>2026</strong></div>
+        <div class="weekdays"><span>ДҮЙ</span><span>СЕЙ</span><span>СӘР</span><span>БЕЙ</span><span>ЖҰМ</span><span>СЕН</span><span>ЖЕК</span></div>
+        <div class="calendar-grid" id="calendarGrid" aria-label="Қараша 2026 күнтізбесі"></div>
+        <div class="calendar-caption"><span class="heart-mark">♡</span><span>Біздің ерекше күніміз</span></div>
+      </div>
+    </section>
+
+    <section class="program section-pad">
+      <p class="section-kicker">БАҒДАРЛАМА</p>
+      <h2>Кешіміздің<br /><em>ерекше сәттері</em></h2>
+      <div class="timeline">
+        <div class="event"><time>17:00</time><div><span class="event-label">БЕТАШАР</span><p>Ақ босаға аттаған жаңа өмірдің бастауы</p></div></div>
+        <div class="event"><time>19:00</time><div><span class="event-label">ҮЙЛЕНУ ТОЙЫ</span><p>Ән мен күйге толы ақ дастархан басындағы мереке</p></div></div>
+      </div>
+    </section>
+
+    <section class="place section-pad">
+      <p class="section-kicker">МЕКЕНЖАЙЫ</p>
+      <h2>Бізді осы<br /><em>жерден табасыз</em></h2>
+      <div class="place-card">
+        <div class="pin">⌖</div>
+        <p class="city">ҚЫЗЫЛОРДА</p>
+        <h3>Eden Hall</h3>
+        <p class="address">Ғ. Мұратбаев көшесі, 1д</p>
+        <a class="outline-button" href="https://2gis.kz/kyzylorda/geo/70000001105295716" target="_blank" rel="noopener">КАРТАНЫ АШУ <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="rsvp section-pad" id="rsvp">
+      <p class="section-kicker">ҚАТЫСУЫҢЫЗДЫ РАСТАУ</p>
+      <h2>Тойымызға<br /><em>келесіз бе?</em></h2>
+      <p class="body-copy centered">Қонақтар тізімін нақтылау үшін жауабыңызды 20 қарашаға дейін қалдыруыңызды сұраймыз.</p>
+      <form id="rsvpForm" class="rsvp-form">
+        <label class="choice"><input type="radio" name="answer" value="ИӘ, барамын" checked /><span class="radio"></span><span>ИӘ, барамын</span></label>
+        <label class="choice"><input type="radio" name="answer" value="ӨКІНІШКЕ ОРАЙ, бара алмаймын" /><span class="radio"></span><span>ӨКІНІШКЕ ОРАЙ, бара алмаймын</span></label>
+        <label class="choice"><input type="radio" name="answer" value="Өз жауабым" id="customChoice" /><span class="radio"></span><span>ӨЗ ЖАУАБЫМ</span></label>
+        <textarea id="customAnswer" name="customAnswer" rows="3" placeholder="Жауабыңызды осында жазыңыз..." aria-label="Өз жауабыңыз"></textarea>
+        <input class="guest-name" name="guestName" placeholder="Атыңыз (міндетті)" aria-label="Атыңыз" required />
+        <select class="guest-count" name="guestCount" aria-label="Қонақтар саны"><option value="1 қонақ">1 қонақ</option><option value="2 қонақ">2 қонақ</option><option value="3 қонақ">3 қонақ</option><option value="4 қонақ">4 қонақ</option></select>
+        <button class="primary-button" type="submit">ЖАУАП ЖІБЕРУ <span>→</span></button>
+        <p class="form-message" id="formMessage" role="status"></p>
+      </form>
+    </section>
+
+    <section class="closing section-pad">
+      <div class="closing-mark">Қ <i>&</i> М</div>
+      <p>Бақытты сәтімізде<br /><em>бірге болайық!</em></p>
+      <a class="back-top" href="#top">↑ БЕТТІҢ БАСЫНА</a>
+    </section>
+  </main>
+  <a class="sticky-rsvp" href="#rsvp"><span>♡</span> ҚАТЫСУЫҢЫЗДЫ РАСТАУ <b>↗</b></a>
+  <script src="script.js"></script>
+</body>
+</html>
